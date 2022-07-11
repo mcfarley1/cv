@@ -37,6 +37,10 @@ a:hover {
   font-weight: bold;
 }
 
+hr {
+  border: solid;
+}
+
 .top-container {
   /*background-color: #E4F9F5;*/
   background-color: black;
@@ -74,14 +78,15 @@ background-image: linear-gradient(#BDF2D5, #FAF4B7, #FFD9C0);
 
 .biography {
   width: 50%;
-  margin: auto;
+  margin: auto auto 20px;
   line-height: 1.5;
 }
 
 .skill-row {
   display: flex;
   width: 50%;
-  margin: 75px auto;
+  padding: 75px;
+  margin: 0 auto;
   text-align: left;
   line-height: 1.5;
   align-items: center;
@@ -108,7 +113,8 @@ background-image: linear-gradient(#BDF2D5, #FAF4B7, #FFD9C0);
 
 .bottom-container {
   padding-top: 16px;
-  background-color: #FFD9C0;
+  background-color: black;
+  color: #ECB390;
 }
 
 .footer-link {
