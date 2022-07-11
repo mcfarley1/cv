@@ -1,63 +1,128 @@
+/*
 body {
-  background-color: #E8F9FD;
+  background-image: linear-gradient(#3330E4, #F637EC, #FBB454, #FAEA48);
+  background-image: linear-gradient(#000000, #5800FF, #E900FF, #FFC600);
+  background-image: linear-gradient(#42EBC9, #3AC9F2, #386EDB, #4233F2, #9946EB);
+  background-image: linear-gradient(#0CEBDA, #0CA4F2, #0137DB, #320CF2, #8E09EB);
+  background-image: linear-gradient(#000000, #5800FF, #FFA500);
+  background-color: #000000;
+  background-image: url("Images/Plant.jpg");
+}
+*/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Comfortaa', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: rebeccapurple;
 }
 
 a:hover {
   font-weight: bold;
 }
 
-hr {
+.top-container {
+  /*background-color: #E4F9F5;*/
+  background-color: black;
+  color: #53BF9D;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-atom {
+  width: 12.5%;
+  position: absolute;
+  top: 5%;
+  left: 1000px;
+}
+
+.bottom-atom {
+  width: 12.5%;
+  position: absolute;
+  top: 30%;
+  right: 1000px;
+}
+
+.main-atom {
+  width: 40%;
+}
+
+.middle-container {
+background-image: linear-gradient(#BDF2D5, #FAF4B7, #FFD9C0);
+}
+
+.hello {
+  margin-top: 0;
+  padding-top: 0.83em;
+}
+
+.biography {
+  width: 50%;
+  margin: auto;
+  line-height: 1.5;
+}
+
+.skill-row {
+  display: flex;
+  width: 50%;
+  margin: 75px auto;
+  text-align: left;
+  line-height: 1.5;
+  align-items: center;
+}
+
+.picture {
+  display: inline-block;
+  width: 49%;
+  margin-right: 15px;
+}
+
+.skill-text {
+  display: inline-block;
+  width: 49%;
+  margin-left: 15px;
+}
+
+.dots {
   border-style: dotted none none;
   border-width: 10px;
-  border-color: gray;
+  border-color: #787A91;
   width: 90px;
 }
 
-h1 {
-  color: #2155CD;
+.bottom-container {
+  padding-top: 16px;
+  background-color: #FFD9C0;
 }
 
-h3 {
-  color: #2155CD;
-  text-align: center;
+.footer-link {
+  display:inline-block;
+  width: 100px;
 }
 
-table {
-  width:70%;
-  margin-left:15%;
-  margin-right:15%;
+.copyright {
+  margin-bottom: 0;
+  padding-bottom: 16px;
 }
 
-form {
-  text-align: center;
-  width: 10%;
-  margin-left: 45%;
-  margin-right: 45%;
-  display: block;
-}
-
-.circular {
-  border-radius: 100%;
-}
-
-.skills {
-  width:25%;
-  margin-left:37.5%;
-  margin-right:37.5%;
-}
-
-.languages {
-  text-align: center;
-}
-
-.experience {
-  text-align: center;
-  width: 70%;
-  margin-left: 20%;
-  margin-right: 10%;
-}
-
-.contact {
-  display: block;
-  text-align: center;
+.projects {
+  margin: 32px;
+  text-align: left;
+  background-image: linear-gradient(#BDF2D5, #FAF4B7, #FFD9C0);
 }
