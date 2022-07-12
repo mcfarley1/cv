@@ -1,15 +1,3 @@
-/*
-body {
-  background-image: linear-gradient(#3330E4, #F637EC, #FBB454, #FAEA48);
-  background-image: linear-gradient(#000000, #5800FF, #E900FF, #FFC600);
-  background-image: linear-gradient(#42EBC9, #3AC9F2, #386EDB, #4233F2, #9946EB);
-  background-image: linear-gradient(#0CEBDA, #0CA4F2, #0137DB, #320CF2, #8E09EB);
-  background-image: linear-gradient(#000000, #5800FF, #FFA500);
-  background-color: #000000;
-  background-image: url("Images/Plant.jpg");
-}
-*/
-
 body {
   margin: 0;
   text-align: center;
@@ -42,9 +30,8 @@ hr {
 }
 
 .top-container {
-  /*background-color: #E4F9F5;*/
   background-color: black;
-  color: #53BF9D;
+  color: #85f5d7;
   position: relative;
   padding-top: 100px;
 }
