@@ -104,9 +104,27 @@ background-image: linear-gradient(#BDF2D5, #FAF4B7, #FFD9C0);
   color: #ECB390;
 }
 
+.button {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 20px;
+  background: #ECB390;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #FFD9C0;
+  text-decoration: none;
+}
+
 .footer-link {
   display:inline-block;
   width: 100px;
+  margin-top: 30px;
 }
 
 .copyright {
