@@ -24,7 +24,7 @@ a {
 }
 
 a:hover {
-  font-weight: bold;
+  color: #A084CF;
 }
 
 hr {
@@ -127,8 +127,11 @@ background-image: linear-gradient(#BDF2D5, #FAF4B7, #FFD9C0);
   display:inline-block;
   margin: 30px 30px auto;
   color: #85f5d7;
-  text-decoration: none;
   font-weight: normal;
+}
+
+.footer-link:hover {
+  font-weight: bold;
 }
 
 .copyright {
