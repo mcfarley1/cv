@@ -132,6 +132,7 @@ background-image: linear-gradient(#BDF2D5, #FAF4B7, #FFD9C0);
 
 .footer-link:hover {
   font-weight: bold;
+  color: #85f5d7;
 }
 
 .copyright {
