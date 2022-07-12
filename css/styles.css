@@ -123,8 +123,7 @@ background-image: linear-gradient(#BDF2D5, #FAF4B7, #FFD9C0);
 
 .footer-link {
   display:inline-block;
-  width: 100px;
-  margin-top: 30px;
+  margin: 30px 30px auto;
 }
 
 .copyright {
