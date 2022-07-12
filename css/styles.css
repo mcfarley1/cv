@@ -19,6 +19,8 @@ h3 {
 
 a {
   color: rebeccapurple;
+  decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
@@ -124,6 +126,9 @@ background-image: linear-gradient(#BDF2D5, #FAF4B7, #FFD9C0);
 .footer-link {
   display:inline-block;
   margin: 30px 30px auto;
+  color: #85f5d7;
+  text-decoration: none;
+  font-weight: normal;
 }
 
 .copyright {
