@@ -121,6 +121,7 @@ background-image: linear-gradient(#BDF2D5, #FAF4B7, #FFD9C0);
 .button:hover {
   background: #FFD9C0;
   text-decoration: none;
+  color: #000000;
 }
 
 .footer-link {
