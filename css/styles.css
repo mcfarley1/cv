@@ -1,3 +1,15 @@
+/*
+body {
+  background-image: linear-gradient(#3330E4, #F637EC, #FBB454, #FAEA48);
+  background-image: linear-gradient(#000000, #5800FF, #E900FF, #FFC600);
+  background-image: linear-gradient(#42EBC9, #3AC9F2, #386EDB, #4233F2, #9946EB);
+  background-image: linear-gradient(#0CEBDA, #0CA4F2, #0137DB, #320CF2, #8E09EB);
+  background-image: linear-gradient(#000000, #5800FF, #FFA500);
+  background-color: #000000;
+  background-image: url("Images/Plant.jpg");
+}
+*/
+
 body {
   margin: 0;
   text-align: center;
@@ -6,6 +18,7 @@ body {
 
 h1 {
   margin-top: 0;
+  padding-top: 100px;
   font-family: 'Comfortaa', sans-serif;
 }
 
@@ -19,6 +32,7 @@ h3 {
 
 a {
   color: rebeccapurple;
+  text-decoration: none;
   font-weight: bold;
 }
 
@@ -35,24 +49,52 @@ hr {
   color: #85f5d7;
   position: relative;
   padding-top: 100px;
+  height: 550px;
+}
+
+.left-div {
+  display: inline-block;
+  width: 29.5%;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.center-div {
+  display: inline-block;
+  width: 40%;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 30%;
+}
+
+.right-div {
+  display: inline-block;
+  width: 29.5%;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .top-atom {
-  width: 12.5%;
+  width: 41.6%;
   position: absolute;
-  top: 5%;
-  left: 1000px;
+  top: 40px;
+  left: 10px;
 }
 
 .bottom-atom {
-  width: 12.5%;
+  width: 41.6%;
   position: absolute;
-  top: 30%;
-  right: 1000px;
+  top: 190px;
+  right: 10px;
 }
 
 .main-atom {
-  width: 40%;
+  width: 100%;
 }
 
 .middle-container {
@@ -109,7 +151,7 @@ background-image: linear-gradient(#BDF2D5, #FAF4B7, #FFD9C0);
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
-  font-family: 'Comfortaa', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #000000;
   font-size: 20px;
   background: #ECB390;
@@ -127,7 +169,7 @@ background-image: linear-gradient(#BDF2D5, #FAF4B7, #FFD9C0);
   display:inline-block;
   margin: 30px 30px auto;
   color: #85f5d7;
-  font-weight: normal;
+  font-weight: normal
 }
 
 .footer-link:hover {
