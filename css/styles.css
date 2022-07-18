@@ -31,13 +31,15 @@ h3 {
 }
 
 a {
-  color: rebeccapurple;
+  /* color: rebeccapurple; */
+  color: #9e59ff;
   text-decoration: none;
   font-weight: bold;
 }
 
 a:hover {
-  color: #A084CF;
+  /* color: #A084CF; */
+  color: #bc96f5;
 }
 
 hr {
@@ -138,6 +140,11 @@ background-image: linear-gradient(#BDF2D5, #FAF4B7, #FFD9C0);
   border-width: 10px;
   border-color: #787A91;
   width: 90px;
+}
+
+.skinny-rule {
+  border-style: solid none none;
+  border-width: thin;
 }
 
 .bottom-container {
